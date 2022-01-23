@@ -1,0 +1,42 @@
+body {
+    background-image: url("dik.jpg");
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+}
+
+#d1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.in1,
+.in2 {
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid pink ;
+    border-radius: 30px;
+    
+}
+
+
+
+.b1 {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.b1 #btn1 {
+    padding: 10px;
+    background-color: rgb(207, 150, 63);
+}
+#btn1:hover{
+    color: blue;
+    background-color: rgb(143, 143, 219);
+}
